@@ -795,6 +795,21 @@ body {
   transform: translateY(-2px);
 }
 
+.assignment-actions .btn-secondary,
+.dark-section .btn-secondary {
+  color: #ddd;
+  border-color: #4a4a46;
+  background: transparent;
+}
+
+.assignment-actions .btn-secondary:hover,
+.dark-section .btn-secondary:hover {
+  background: #363632;
+  border-color: #888;
+  color: var(--white);
+  transform: translateY(-2px);
+}
+
 /* CASE STUDY STYLES & INTERACTIVE REPORT */
 .hidden {
   display: none !important;
